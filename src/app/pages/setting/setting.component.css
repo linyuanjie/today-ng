@@ -1,0 +1,30 @@
+.setting-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  .setting-container .back-btn {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+  }
+  .setting-container .back-btn span:hover {
+    color: red;
+  }
+  .setting-container .content {
+    padding: 120px 0 0;
+    width: 300px;
+    overflow: scroll;
+  }
+  .setting-container .content .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .setting-container .content .body .avatar {
+    width: 80px;
+    height: 80px;
+  }
+  

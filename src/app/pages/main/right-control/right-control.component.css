@@ -1,0 +1,24 @@
+.right-control {
+    position: relative;
+    height: 100%;
+  }
+  .right-control .header-wrapper {
+    height: 180px;
+    padding: 0;
+    background-color: white;
+  }
+  .right-control .list-wrapper {
+    overflow: scroll;
+  }
+  .right-control .quick-add-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    width: 400px;
+    transform: translate3d(-50%, 0, 0);
+    transition: 0.2s ease all;
+  }
+  .right-control .quick-add-wrapper.center {
+    bottom: 50%;
+  }
+  

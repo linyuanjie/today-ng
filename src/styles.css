@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  body {
+    background-color: #001529;
+  }
+  .anticon-right-margin {
+    margin-right: 8px;
+  }
+  .danger {
+    color: red;
+  }
+  .to-edge {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .full-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  nz-select.ant-fullcalendar-year-select {
+    margin-right: 5px;
+  }
+  .floating-btn {
+    padding: 12px;
+    transition: all 0.2s linear;
+  }
+  .floating-btn span {
+    transition: all 0.2s linear;
+  }
+  .floating-btn:hover {
+    transform: translate3d(0, -2px, 0);
+  }
+  .floating-btn:hover span {
+    color: red;
+  }
+  
